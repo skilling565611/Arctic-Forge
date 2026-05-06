@@ -1,0 +1,28 @@
+Create the base code structure for Arctic Forge.
+
+Keep the code simple, clean, and original. Do not overbuild it.
+
+Project purpose:
+Arctic Forge is a modular tool-builder / core engine inside the AtlasCore ecosystem.
+
+Create these files:
+
+App/Main.py
+Core/Engine.py
+Core/ConfigLoader.py
+Core/Logger.py
+Config/ArcticForge.Settings
+Docs/ARCHITECTURE.md
+
+Requirements:
+- Standard Python only.
+- Main.py is the entry point.
+- ConfigLoader loads Config/ArcticForge.Settings.
+- If config is missing, create it.
+- Logger writes startup logs into Logs/.
+- Engine starts the Arctic Forge core.
+- Keep everything modular.
+- Add comments, but not too many.
+- Do not remove existing README, LICENSE, or .gitignore.
+- Do not overwrite existing files unless needed.
+- Return full code for every new file.
