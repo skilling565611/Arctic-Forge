@@ -1,0 +1,71 @@
+You are building a Python application called "Arctic Forge".
+
+Goal:
+Create the base structure and core system for Arctic Forge, which will act as a modular tool inside a larger Master Application system.
+
+Environment:
+- Language: Python 3.11
+- OS: Windows
+- No external dependencies (standard library only for now)
+
+Requirements:
+
+1. Create project structure:
+ArcticForge/
+ ├── App/
+ │   └── Main.py
+ ├── Core/
+ │   ├── Engine.py
+ │   ├── ConfigLoader.py
+ │   └── Logger.py
+ ├── Config/
+ │   └── ArcticForge.Settings
+ ├── Logs/
+ └── Docs/
+
+2. Implement functionality:
+
+Main.py:
+- Entry point
+- Initialize system
+- Load config
+- Start engine
+
+Engine.py:
+- Core system runner
+- Print "Arctic Forge Engine Started"
+- Prepare for future modules
+
+ConfigLoader.py:
+- Load settings file
+- If file doesn't exist, create default config
+
+Logger.py:
+- Create log file in Logs folder
+- Log startup events
+
+3. Config system:
+- ArcticForge.Settings should be simple text or JSON
+- Include:
+  - Debug_Mode (true/false)
+  - Log_Path
+  - App_Name
+
+4. Behavior:
+- On first run:
+  - Create missing folders/files
+- Print clean startup output in console
+
+5. Output format:
+- Return FULL project files
+- Each file clearly separated
+- Ready to copy/paste into VS Code
+
+6. Do NOT:
+- Add unnecessary complexity
+- Use external libraries
+- Over-engineer
+
+7. Keep code clean, readable, and modular.
+
+Return only code.
